@@ -17,9 +17,9 @@ public class ArrayReverse
     }
 public static void main(String[] args)
 {
-    int[] arr={5,4,3,2,1};
-    int start=arr[0];
-    int end=arr[arr.length-1];
+    int[] arr={7,1,8,9,5};
+    int start=0
+    int end=arr.length-1;
     ArrayReverse obj=new ArrayReverse();
     obj.reverse(arr,start,end);   
 }
